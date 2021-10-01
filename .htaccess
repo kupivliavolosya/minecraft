@@ -1,0 +1,19 @@
+﻿Order allow,deny
+Deny from all
+
+<FilesMatch "\.(png)$|^$">
+   Order deny,allow
+   Allow from all
+</FilesMatch>
+<FilesMatch "\.(jpg)$|^$">
+   Order deny,allow
+   Allow from all
+</FilesMatch>
+<FilesMatch "\.(css)$|^$">
+   Order deny,allow
+   Allow from all
+</FilesMatch>
+<FilesMatch "\.(js)$|^$">
+   Order deny,allow
+   Allow from all
+</FilesMatch>
